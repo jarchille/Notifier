@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD680C9625DFED772A32A50B97038D0 /* AppusCircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAADC94CF491D4593E6F7EF0CB1B71 /* AppusCircleTimer.swift */; };
+		3E883BB0021E423854CADE65B4E7A3CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5CB60529BF33C3115739337CA46586C1 /* CircleTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E96BA25A33E78D397D3C407D3A6521 /* CircleTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A482FB4ECB8D0272F58665FFD18846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8A3306756B9F44E64DE05D8EE6F2DF61 /* CircleTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EDA22D6E5611DF10A1D313CD5C9037 /* CircleTimer-dummy.m */; };
+		AE3D98E345AB6E0A525451956BD96DF1 /* Pods-NotifyMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C363BF51C312F1DBF872627C545AE272 /* Pods-NotifyMe-dummy.m */; };
+		CA89E08740411E790854B958E1A70FF1 /* Pods-NotifyMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BAF5EC1ABA4B31536ACA426359C24E /* Pods-NotifyMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5D4511F7A7802E91CF58F6C218824CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5331DF782E7E43D30C23FE41F948E9;
+			remoteInfo = CircleTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0335F4415C1F324D88FC01F3650B6F40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118995C647CCBAC478C3252D798D0699 /* Pods-NotifyMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotifyMe.modulemap"; sourceTree = "<group>"; };
+		184D4890CAD1E6312623FEE8630A6A14 /* AppusCircleTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppusCircleTimer.framework; path = CircleTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BAF5EC1ABA4B31536ACA426359C24E /* Pods-NotifyMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotifyMe-umbrella.h"; sourceTree = "<group>"; };
+		353C8EF972FF07C86FD6EAFE1ECBA30D /* Pods-NotifyMe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotifyMe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48E96BA25A33E78D397D3C407D3A6521 /* CircleTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleTimer-umbrella.h"; sourceTree = "<group>"; };
+		52E0D888A15A5918F52127EAB7BEF0E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E3A0BF621FD726698AA931BBEFF514 /* Pods-NotifyMe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotifyMe-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B57D05CBD4FA20E74DAC44BB69CF1E9 /* Pods-NotifyMe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyMe-frameworks.sh"; sourceTree = "<group>"; };
+		6F823227A5DFC7F4A1FDBCB5E827A111 /* Pods-NotifyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyMe.release.xcconfig"; sourceTree = "<group>"; };
+		7A532E32F16F1A4AE153BDAE4DBF947B /* Pods_NotifyMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotifyMe.framework; path = "Pods-NotifyMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E850220A75676B24B9B05E4EED1D0A8 /* CircleTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleTimer-prefix.pch"; sourceTree = "<group>"; };
+		7ED40801114DD3A2E465C74FBC0613E7 /* CircleTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircleTimer.modulemap; sourceTree = "<group>"; };
+		938D164504C2750ED4E5DB13A4E35B62 /* Pods-NotifyMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyMe.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CBE184C33288102534E5299302D3B4 /* Pods-NotifyMe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyMe-resources.sh"; sourceTree = "<group>"; };
+		A2DAADC94CF491D4593E6F7EF0CB1B71 /* AppusCircleTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppusCircleTimer.swift; path = CircleTimer/AppusCircleTimer.swift; sourceTree = "<group>"; };
+		C0474E143E765F18CD4D10F19529F746 /* CircleTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleTimer.xcconfig; sourceTree = "<group>"; };
+		C363BF51C312F1DBF872627C545AE272 /* Pods-NotifyMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifyMe-dummy.m"; sourceTree = "<group>"; };
+		C4EDA22D6E5611DF10A1D313CD5C9037 /* CircleTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleTimer-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D29DE0BF30FC6719AEA98254906A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A482FB4ECB8D0272F58665FFD18846 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC565753DDEA36E062750941BC232FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E883BB0021E423854CADE65B4E7A3CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA0F56DA2686F32FF251129598E453F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ED40801114DD3A2E465C74FBC0613E7 /* CircleTimer.modulemap */,
+				C0474E143E765F18CD4D10F19529F746 /* CircleTimer.xcconfig */,
+				C4EDA22D6E5611DF10A1D313CD5C9037 /* CircleTimer-dummy.m */,
+				7E850220A75676B24B9B05E4EED1D0A8 /* CircleTimer-prefix.pch */,
+				48E96BA25A33E78D397D3C407D3A6521 /* CircleTimer-umbrella.h */,
+				0335F4415C1F324D88FC01F3650B6F40 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleTimer";
+			sourceTree = "<group>";
+		};
+		1F709D9285229522EF52ACC4FD6790A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184D4890CAD1E6312623FEE8630A6A14 /* AppusCircleTimer.framework */,
+				7A532E32F16F1A4AE153BDAE4DBF947B /* Pods_NotifyMe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A69A719790FE5AA5D57E819FDDEAD6B /* Pods-NotifyMe */ = {
+			isa = PBXGroup;
+			children = (
+				52E0D888A15A5918F52127EAB7BEF0E2 /* Info.plist */,
+				118995C647CCBAC478C3252D798D0699 /* Pods-NotifyMe.modulemap */,
+				353C8EF972FF07C86FD6EAFE1ECBA30D /* Pods-NotifyMe-acknowledgements.markdown */,
+				52E3A0BF621FD726698AA931BBEFF514 /* Pods-NotifyMe-acknowledgements.plist */,
+				C363BF51C312F1DBF872627C545AE272 /* Pods-NotifyMe-dummy.m */,
+				5B57D05CBD4FA20E74DAC44BB69CF1E9 /* Pods-NotifyMe-frameworks.sh */,
+				98CBE184C33288102534E5299302D3B4 /* Pods-NotifyMe-resources.sh */,
+				28BAF5EC1ABA4B31536ACA426359C24E /* Pods-NotifyMe-umbrella.h */,
+				938D164504C2750ED4E5DB13A4E35B62 /* Pods-NotifyMe.debug.xcconfig */,
+				6F823227A5DFC7F4A1FDBCB5E827A111 /* Pods-NotifyMe.release.xcconfig */,
+			);
+			name = "Pods-NotifyMe";
+			path = "Target Support Files/Pods-NotifyMe";
+			sourceTree = "<group>";
+		};
+		444B37C96C7D6BF2AFBCC9344D13C96E /* CircleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAADC94CF491D4593E6F7EF0CB1B71 /* AppusCircleTimer.swift */,
+				1EA0F56DA2686F32FF251129598E453F /* Support Files */,
+			);
+			name = CircleTimer;
+			path = CircleTimer;
+			sourceTree = "<group>";
+		};
+		73E032924694F509FBAFC0A4C450E83C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A69A719790FE5AA5D57E819FDDEAD6B /* Pods-NotifyMe */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7486AB91F0B14C59ECBFF1835783829F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				444B37C96C7D6BF2AFBCC9344D13C96E /* CircleTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7486AB91F0B14C59ECBFF1835783829F /* Pods */,
+				1F709D9285229522EF52ACC4FD6790A1 /* Products */,
+				73E032924694F509FBAFC0A4C450E83C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2932B1DE0ED2F1E97C5F4822DE03B980 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB60529BF33C3115739337CA46586C1 /* CircleTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8130B3BAD44665563E78C54641F104B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89E08740411E790854B958E1A70FF1 /* Pods-NotifyMe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F5331DF782E7E43D30C23FE41F948E9 /* CircleTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC1393368F9D3C700E285B63C3D8258 /* Build configuration list for PBXNativeTarget "CircleTimer" */;
+			buildPhases = (
+				7D2F3811D34C55611D2B93A498321443 /* Sources */,
+				EC565753DDEA36E062750941BC232FEF /* Frameworks */,
+				2932B1DE0ED2F1E97C5F4822DE03B980 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleTimer;
+			productName = CircleTimer;
+			productReference = 184D4890CAD1E6312623FEE8630A6A14 /* AppusCircleTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFC7CC087BC93D600F98B98D5AAB1499 /* Pods-NotifyMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEEA3FDD9654569E53926162DF99D4F /* Build configuration list for PBXNativeTarget "Pods-NotifyMe" */;
+			buildPhases = (
+				0909D33B991DBE05953E668C9CB8B263 /* Sources */,
+				21D29DE0BF30FC6719AEA98254906A2B /* Frameworks */,
+				A8130B3BAD44665563E78C54641F104B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29B82FAD4A36C8689665EEE267F296B /* PBXTargetDependency */,
+			);
+			name = "Pods-NotifyMe";
+			productName = "Pods-NotifyMe";
+			productReference = 7A532E32F16F1A4AE153BDAE4DBF947B /* Pods_NotifyMe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F709D9285229522EF52ACC4FD6790A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5331DF782E7E43D30C23FE41F948E9 /* CircleTimer */,
+				CFC7CC087BC93D600F98B98D5AAB1499 /* Pods-NotifyMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0909D33B991DBE05953E668C9CB8B263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3D98E345AB6E0A525451956BD96DF1 /* Pods-NotifyMe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2F3811D34C55611D2B93A498321443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD680C9625DFED772A32A50B97038D0 /* AppusCircleTimer.swift in Sources */,
+				8A3306756B9F44E64DE05D8EE6F2DF61 /* CircleTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29B82FAD4A36C8689665EEE267F296B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleTimer;
+			target = 8F5331DF782E7E43D30C23FE41F948E9 /* CircleTimer */;
+			targetProxy = E5D4511F7A7802E91CF58F6C218824CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE641BD7E9E0B908C8948D3E95D0CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F823227A5DFC7F4A1FDBCB5E827A111 /* Pods-NotifyMe.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyMe/Pods-NotifyMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CDB9B3405A38AF293E5902FED4F2D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0474E143E765F18CD4D10F19529F746 /* CircleTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleTimer/CircleTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleTimer/CircleTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AppusCircleTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCF390D4E4ABE51242B2DA6DEFDC821B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0474E143E765F18CD4D10F19529F746 /* CircleTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleTimer/CircleTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleTimer/CircleTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AppusCircleTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE40B43BBE0B08CD1CA6D63D2097190F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938D164504C2750ED4E5DB13A4E35B62 /* Pods-NotifyMe.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyMe/Pods-NotifyMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEEA3FDD9654569E53926162DF99D4F /* Build configuration list for PBXNativeTarget "Pods-NotifyMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40B43BBE0B08CD1CA6D63D2097190F /* Debug */,
+				0AE641BD7E9E0B908C8948D3E95D0CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC1393368F9D3C700E285B63C3D8258 /* Build configuration list for PBXNativeTarget "CircleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF390D4E4ABE51242B2DA6DEFDC821B /* Debug */,
+				1CDB9B3405A38AF293E5902FED4F2D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

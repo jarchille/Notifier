@@ -1,0 +1,12 @@
+PODS:
+  - CircleTimer (0.2.2)
+
+DEPENDENCIES:
+  - CircleTimer
+
+SPEC CHECKSUMS:
+  CircleTimer: 623db0cf5762db38ac3c940677377df0b94af674
+
+PODFILE CHECKSUM: 3710804c2ec7e39edeb31ee69f0e597439d0bc9c
+
+COCOAPODS: 1.1.1
